@@ -15,20 +15,30 @@ _by Si Ting Chen_
 **_What is the difference between Git and Github?_**  
 * Git is use for revision control system, which manage to keep ”snapshots” of code and Github is a cloud-based hosting service that lets you manage Git repositories.
 
-
-
-
-
-
-
-
 ---
 ## Initial Setup
+[How to make a GitHub Account](https://github.com/)
+* Click on the GitHub website on the top.
+* Click Sign-Up
+* Filled in the information (Username, Email, Password)
+  * Password must be at least 8 character including a number and a lowercase letter.
+
+[How to set up your IDE](https://ide.cs50.io/)
+
+
 
 
 
 ---
 ## Repository Setup
+**_init_**
+
+
+**_add_**
+
+
+**_commit_**
+
 
 
 
