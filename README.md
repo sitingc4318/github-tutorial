@@ -24,10 +24,12 @@ _by Si Ting Chen_
   * Password must be at least 8 character including a number and a lowercase letter.
 
 [How to set up your IDE](https://ide.cs50.io/)
-
-
-
-
+* log into your github account 
+* Click on the IDE website on the top. 
+* Click Sigh in with GitHub from the blue box on the left.  
+ **or**
+* Since the IDE is connected to your github account.
+* Type (ide.cs50/your username for github/ide) to login.  
 
 ---
 ## Repository Setup
