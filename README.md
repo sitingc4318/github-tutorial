@@ -38,8 +38,11 @@ When setting up change:
 2. using **git init** to open a new repository so you can make change inside the repository.
 3. type **git add .** to add all the revelant in the files.
 4. type **git commit -m "line to remind what you done"** to save change in folder.
-5. to connect to your github
-6. 
+5. to connect to your github sign in to our github account.
+6. click on the "new repository" on the top right corner.
+7. click "create repository"
+8. in you ide50 type git remote add origin git remote add origin https://github.com/username/new_repo
+9.type git push -u origin master ths way whatever you write on the ide50 will connect to your repository on your github page.
 
 **_init_**  
 * initializes git in the directory which now is call a **_repository_** for vision control.
@@ -48,30 +51,34 @@ When setting up change:
 ---
 ## Workflow & Commands
 **_status_**  
-* initializes git in the directory which now is call a **_repository_** for vision control.
-* only do this once at the beginning (main folder).
+The git status command displays the state of the working directory and the staging area.
+
 _what each command does (explain the concept)_
+git status helps keep track of what change have you staged 
 
-_how to actually use it (correct syntax)_
+_how to actually use it (correct syntax)_  
+1. git add .
+2. git status
 
-**_add_**  
+
+**_add_**    
 * adds a change in the working directory to the staging area.
 
-_what each command does (explain the concept)_
+_what each command does (explain the concept)_  
 git add is to help indicate or modifies the project you did works
 
-_how to actually use it (correct syntax)_
+_how to actually use it (correct syntax)_  
 1. when finish making change 
 2. cd into the folder you want to save
 3. type "git add ."
 
-**_commit_**  
+**_commit_**    
 
-* 
-_what each command does (explain the concept)_
+ 
+_what each command does (explain the concept)_  
 
 
-_how to actually use it (correct syntax)_
+_how to actually use it (correct syntax)_  
 1. when finish making change 
 2. cd into the folder you want to save
 3. type "git add ."
@@ -80,11 +87,12 @@ _how to actually use it (correct syntax)_
 
 
 
-**_push_**
-* to push committed changes to github, type
-_what each command does (explain the concept)_
+**_push_**  
+* to push committed changes to github, type  
 
-_how to actually use it (correct syntax)_
+_what each command does (explain the concept)_  
+
+_how to actually use it (correct syntax)_  
 
 
 
