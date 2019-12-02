@@ -33,66 +33,59 @@ _by Si Ting Chen_
 
 ---
 ## Repository Setup
-When setting up change:
-1. make a folder in your parent folder by using "mdkir".
-2. using **git init** to open a new repository so you can make change inside the repository.
-3. type **git add .** to add all the revelant in the files.
-4. type **git commit -m "line to remind what you done"** to save change in folder.
-5. to connect to your github sign in to our github account.
-6. click on the "new repository" on the top right corner.
-7. click "create repository"
-8. in you ide50 type git remote add origin git remote add origin https://github.com/username/new_repo
-9.type git push -u origin master ths way whatever you write on the ide50 will connect to your repository on your github page.
 
-**_init_**  
-* initializes git in the directory which now is call a **_repository_** for vision control.
-* only do this once at the beginning (main folder).
+###### When setting up repository change: 
+
+1. Make a folder in your parent folder by using "mdkir".
+2. When you are in the directory type **git init** to open a new repository so you can make change inside the repository.
+3. Type c9 to open file 
+4. Type **git add .** to add all the revelant in the files.
+5. Type **git commit -m "your message"** to save change in folder.
+6. Type **_git push_** to commit all the meassge you make in github.
+
+###### To connect remote repository in github:
+ 
+1. Go to github and sign in.
+2. Click on the "new repository" on the top right corner from the "+" icon.
+3. click "create repository"
+4. Make a name in your repository.
+5. Make sure you are in the "SSH key" link.
+6. Go to your ide50 cd in to the repository that you just make.
+7. Type "git remote add origin git@github.com:<Your github account name>/<Your repository name>.git
+8. type git push -u origin master ths way whatever you write on the ide50 will connect to your repository on your github page.
 
 ---
 ## Workflow & Commands
-**_status_**  
-The git status command displays the state of the working directory and the staging area.
 
-_what each command does (explain the concept)_
-git status helps keep track of what change have you staged 
+**_init_**    
+* initializes git in the directory which now is call a **repository** for vision control.
+* only do this once at the beginning (main folder).
 
-_how to actually use it (correct syntax)_  
-1. git add .
-2. git status
+**_status_**    
+* The git status command displays the state of the working directory and the staging area.
+* Git status helps keep track of what change have you staged.
 
+**_add_**      
+* It is use to adds a change in the working directory to the staging area.
+* Git add is to help indicate or modifies the project you did works.
 
-**_add_**    
-* adds a change in the working directory to the staging area.
+**_commit_**  
+* Git commit is used to save changes in your local repository.
 
-_what each command does (explain the concept)_  
-git add is to help indicate or modifies the project you did works
+**_push_**    
+* To push committed changes to github
+* Upload repository to github.
 
-_how to actually use it (correct syntax)_  
-1. when finish making change 
-2. cd into the folder you want to save
-3. type "git add ."
+###### Ongoing Workflow:
 
-**_commit_**    
-
- 
-_what each command does (explain the concept)_  
-
-
-_how to actually use it (correct syntax)_  
-1. when finish making change 
-2. cd into the folder you want to save
-3. type "git add ."
-4. git status to modified your change(must be green color)
-5. git commit -m "line to remind what you done"
-
-
-
-**_push_**  
-* to push committed changes to github, type  
-
-_what each command does (explain the concept)_  
-
-_how to actually use it (correct syntax)_  
+1. **"cd"** into the folder that you want to work on.
+2. **"c9 <file name>"** into the file that you want to work on.
+3. make edit in the file.
+4. **"git add."** so it ready to commit
+5. **"git status"** to make sure the change is modified.(green color)
+6. **"git commit"** -m "your message" 
+7. **"git push"** to transfer all commit to your github.
+8. repeat from **step 4** a certain amount of time when you want to save change.
 
 
 
