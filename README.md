@@ -121,7 +121,7 @@ To save change
 
 **_undo a "git push"_**  
 To upload change 
-1) Type **"git log"** to see which commit you want to revert back.
-2) Type **"git revert"** to get to the page that you have commit that time.
-3) Type **"git reset--hard"** is a destructive operation for uncommitted changes.
-4) Type **"git push orgin master"** to push the commit that you revert from local branch to remote.
+* Type **"git log"** to see which commit you want to revert back.
+* Type **"git revert"** to get to the page that you have commit that time.
+* Type **"git reset--hard"** is a destructive operation for uncommitted changes.
+* Type **"git push orgin master"** to push the commit that you revert from local branch to remote.
