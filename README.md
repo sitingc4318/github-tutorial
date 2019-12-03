@@ -115,7 +115,7 @@ When make change
 To get green modified to red modified when make another change 
 * git reset HEAD (file name): to undo change from adding
 
-**_undo a "git commit"_**
+**_undo a "git commit"_**  
 To save change
 * git reset --soft HEAD~1: to remove commit you do in the last commit
 
