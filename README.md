@@ -107,18 +107,20 @@ _by Si Ting Chen_
 ---
 ## Rolling Back Changes
 
-**_undo an edit_**  
+**_undo an "edit"_**  
 When make change  
 * git checkout -- (file name): to undo any edit in the last commit
 
-**_undo a git add_**      
-to get green modified to red modified when make another change 
+**_undo a "git add"_**      
+To get green modified to red modified when make another change 
 * git reset HEAD (file name): to undo change from adding
 
-**_undo a git commit_**   
+**_undo a "git commit"_**
+To save change
 * git reset --soft HEAD~1: to remove commit you do in the last commit
 
-**_undo a git push_**  
+**_undo a "git push"_**  
+To upload change 
 1) Type **"git log"** to see which commit you want to revert back.
 2) Type **"git revert"** to get to the page that you have commit that time.
 3) Type **"git reset--hard"** is a destructive operation for uncommitted changes.
