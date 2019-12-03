@@ -76,15 +76,32 @@ _by Si Ting Chen_
 * To push committed changes to github
 * Upload repository to github.
 
+**_log_**
+* Git log is use to see your past commit.
+
+**_diff_**
+* Git diff is use to see the difference between your current code and the previous commits.
+
+**_pull_**
+* Git pull is use to bring any change from the remote repo “down” to the local repo.
+
+**_cd_**
+* cd (folder name) - goes to that folder
+* cd .. - goes to the parent directory
+* cd ~ - goes to the root directory
+
+**_touch_**
+* touch <files name>.txt - creates a file
+
 ###### Ongoing Workflow:
 
-1. **"cd"** into the folder that you want to work on.
-2. **"c9 <file name>"** into the file that you want to work on.
+1. Type **"cd"** into the folder that you want to work on.
+2. Type **"c9 <file name>"** into the file that you want to work on.
 3. Make edit in the file.
-4. **"git add."** so it ready to commit
-5. **"git status"** to make sure the change is modified.(green color)
-6. **"git commit"** -m "your message" 
-7. **"git push"** to transfer all commit to your github.
+4. Type **"git add."** so it ready to commit
+5. Type **"git status"** to make sure the change is modified.(green color)
+6. Type **"git commit"** -m "your message" 
+7. Type **"git push"** to transfer all commit to your github.
 8. Repeat from **step 4** a certain amount of time when you want to save change.
 
 ---
@@ -92,17 +109,17 @@ _by Si Ting Chen_
 
 **_undo an edit_**  
 When make change  
-git checkout -- (file name): to undo any edit in the last commit
+* git checkout -- (file name): to undo any edit in the last commit
 
 **_undo a git add_**      
-to get green modified to red modified when make another change  
-git reset HEAD (file name): to undo adding to the stage
+to get green modified to red modified when make another change 
+* git reset HEAD (file name): to undo change from adding
 
 **_undo a git commit_**   
-git reset --soft HEAD~1: to undo commit you do in the last commit
+* git reset --soft HEAD~1: to remove commit you do in the last commit
 
 **_undo a git push_**  
-1. **"git log"** to see which commit you want to revert back.
-2. **"git revert"** to get to the page that you have commit that time.
-3. **"git reset--hard"** is a destructive operation for uncommitted changes.
-4. **"git push orgin master"** to push the commit that you revert from local branch to remote.
+1) Type **"git log"** to see which commit you want to revert back.
+2) Type **"git revert"** to get to the page that you have commit that time.
+3) Type **"git reset--hard"** is a destructive operation for uncommitted changes.
+4) Type **"git push orgin master"** to push the commit that you revert from local branch to remote.
