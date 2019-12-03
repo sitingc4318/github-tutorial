@@ -15,8 +15,6 @@ _by Si Ting Chen_
 **_What is the difference between Git and Github?_**  
 * Git is use for revision control system, which manage to keep ”snapshots” of code and Github is a cloud-based hosting service that lets you manage Git repositories.
 
-###### What is SSH?
-
 ---
 ## Initial Setup
 [How to make a GitHub Account](https://github.com/)
@@ -41,27 +39,27 @@ _by Si Ting Chen_
 1. Make a folder in your parent folder by using "mdkir".
 2. When you are in the directory type **git init** to open a new repository so you can make change inside the repository.
 3. Type c9 to open file 
-4. Type **git add .** to add all the revelant in the files.
-5. Type **git commit -m "your message"** to save change in folder.
+4. Type **_git add ._** to add all the revelant in the files.
+5. Type **_git commit -m "your message"_** to save change in folder.
 6. Type **_git push_** to commit all the meassge you make in github.
 
 ###### To connect remote repository in github:
  
 1. Go to github and sign in.
 2. Click on the "new repository" on the top right corner from the "+" icon.
-3. click "create repository"
+3. Click "create repository"
 4. Make a name in your repository.
 5. Make sure you are in the "SSH key" link.
 6. Go to your ide50 cd in to the repository that you just make.
 7. Type "git remote add origin git@github.com:<Your github account name>/<Your repository name>.git
-8. type git push -u origin master ths way whatever you write on the ide50 will connect to your repository on your github page.
+8. Type git push -u origin master ths way whatever you write on the ide50 will connect to your repository on your github page.
 
 ---
 ## Workflow & Commands
 
 **_init_**    
-* initializes git in the directory which now is call a **repository** for vision control.
-* only do this once at the beginning (main folder).
+* Initializes git in the directory which now is call a **repository** for vision control.
+* Only do this once at the beginning (main folder).
 
 **_status_**    
 * The git status command displays the state of the working directory and the staging area.
@@ -82,12 +80,13 @@ _by Si Ting Chen_
 
 1. **"cd"** into the folder that you want to work on.
 2. **"c9 <file name>"** into the file that you want to work on.
-3. make edit in the file.
+3. Make edit in the file.
 4. **"git add."** so it ready to commit
 5. **"git status"** to make sure the change is modified.(green color)
 6. **"git commit"** -m "your message" 
 7. **"git push"** to transfer all commit to your github.
-8. repeat from **step 4** a certain amount of time when you want to save change.
+8. Repeat from **step 4** a certain amount of time when you want to save change.
+
 ---
 ## Rolling Back Changes
 
