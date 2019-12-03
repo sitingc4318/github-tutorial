@@ -8,12 +8,14 @@ _by Si Ting Chen_
 * Revision control keep ”snapshots” of code (Timeline: remember what you change)
 
 **_GitHub_**
-* Store code in the cloud(server that connect to the internet)
+* Store code in the cloud (server that connect to the internet)
 * Visually track change
 * Easily collaborate on files
 
 **_What is the difference between Git and Github?_**  
 * Git is use for revision control system, which manage to keep ”snapshots” of code and Github is a cloud-based hosting service that lets you manage Git repositories.
+
+###### What is SSH?
 
 ---
 ## Initial Setup
@@ -86,8 +88,22 @@ _by Si Ting Chen_
 6. **"git commit"** -m "your message" 
 7. **"git push"** to transfer all commit to your github.
 8. repeat from **step 4** a certain amount of time when you want to save change.
-
-
-
 ---
 ## Rolling Back Changes
+
+**_undo an edit_**  
+When make change  
+git checkout -- (file name): to undo any edit in the last commit
+
+**_undo a git add_**      
+to get green modified to red modified when make another change  
+git reset HEAD (file name): to undo adding to the stage
+
+**_undo a git commit_**   
+git reset --soft HEAD~1: to undo commit you do in the last commit
+
+**_undo a git push_**  
+1. **"git log"** to see which commit you want to revert back.
+2. **"git revert"** to get to the page that you have commit that time.
+3. **"git reset--hard"** is a destructive operation for uncommitted changes.
+4. **"git push orgin master"** to push the commit that you revert from local branch to remote.
