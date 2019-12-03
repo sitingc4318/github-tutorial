@@ -51,7 +51,7 @@ _by Si Ting Chen_
 4. Make a name in your repository.
 5. Make sure you are in the "SSH key" link.
 6. Go to your ide50 cd in to the repository that you just make.
-7. Type "git remote add origin git@github.com:<Your github account name>/<Your repository name>.git
+7. Type "git remote add origin git@github.com/username/new_repo
 8. Type git push -u origin master ths way whatever you write on the ide50 will connect to your repository on your github page.
 
 ---
@@ -121,7 +121,7 @@ To save change
 
 **_undo a "git push"_**  
 To upload change 
-* Type **"git log"** to see which commit you want to revert back.
+* Type **"git log"** to see which commit you want to go back.
 * Type **"git revert"** to get to the page that you have commit that time.
 * Type **"git reset--hard"** is a destructive operation for uncommitted changes.
 * Type **"git push orgin master"** to push the commit that you revert from local branch to remote.
